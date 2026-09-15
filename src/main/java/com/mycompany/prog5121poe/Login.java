@@ -9,7 +9,7 @@ package com.mycompany.prog5121poe;
  * @author Student
  */
 public class Login {
-
+  
 
     // Variables
     private String firstName;
@@ -30,7 +30,7 @@ public class Login {
         this.cellPhoneNumber = cellPhoneNumber;
     }
 
-    // Check username
+    // Check if username is correctly formatted
     public boolean checkUserName() {
 
         if (username != null
@@ -45,7 +45,7 @@ public class Login {
         }
     }
 
-    // Check password complexity
+    // Check if password meets complexity requirements
     public boolean checkPasswordComplexity() {
 
         if (password == null) {
@@ -56,7 +56,7 @@ public class Login {
         boolean hasNumber = false;
         boolean hasSpecialCharacter = false;
 
-        // Check every character in the password
+        // Check each character in the password
         for (int i = 0; i < password.length(); i++) {
 
             char character = password.charAt(i);
@@ -88,7 +88,7 @@ public class Login {
         }
     }
 
-    // Check South African cell phone number
+    // Check South African cellphone number
     public boolean checkCellPhoneNumber() {
 
         if (cellPhoneNumber != null
@@ -164,6 +164,8 @@ public class Login {
         }
     }
 }
+
+
 
 
     
