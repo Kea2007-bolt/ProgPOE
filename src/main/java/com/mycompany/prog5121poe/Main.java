@@ -36,7 +36,7 @@ public class Main {
                username,
                password,
                cellPhoneNumber,
-       )
+       
                
        
        System.out.println("Regristration is ongoing");
@@ -46,10 +46,10 @@ public class Main {
        if (user.checkUserName(
            
            
-       }
+               }
        
        
        
-}
 }
 
+}
